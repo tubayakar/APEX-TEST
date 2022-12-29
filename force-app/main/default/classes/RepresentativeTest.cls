@@ -1,9 +1,9 @@
 /**
  * @description       : 
- * @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+ * @author            : Tuba Yakar
  * @group             : 
  * @last modified on  : 12-29-2022
- * @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+ * @last modified by  : Tuba Yakar
 **/
 @isTest
 public class RepresentetiveTest {
@@ -32,8 +32,6 @@ public class RepresentetiveTest {
     public static void bonusFeeTest1(){
         Representative.hasBonusFee();
     }
-    
-    
-    
+
     
 }
