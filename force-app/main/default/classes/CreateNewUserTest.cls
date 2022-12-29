@@ -22,4 +22,11 @@ public class CreateNewUserTest {
         u.checkTitleWithCode(13);
     }
     
+    @isTest
+    public static void checkStartDateTest1(){
+        CreateNewUser u = new CreateNewUser();
+        u.checkStartDate(Date.parse('12/29/22'));
+        u.checkStartDate(Date.parse('12/29/23'));
+    }
+    
 }
