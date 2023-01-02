@@ -7,18 +7,24 @@
 **/
 
 public class LeadQueueable implements Queueable{
-	
+    
     private Lead singleLead;
     
     
     
     public LeadQueueable(Lead singleLead){
         this.singleLead = singleLead;
+        
     }
     
     public void execute(QueueableContext context){
         system.debug('Queueable Apex is working...');
+        
+        insert singleLead;
+        system.debug('New Lead is created...Info:  '+singleLead);
     }
+    
+    
     
 }
 
