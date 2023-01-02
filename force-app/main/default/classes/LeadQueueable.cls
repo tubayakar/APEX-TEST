@@ -1,9 +1,9 @@
 /**
  * @description       : 
- * @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+ * @author            : Tuba Yakar
  * @group             : 
  * @last modified on  : 01-02-2023
- * @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+ * @last modified by  : 
 **/
 
 public class LeadQueueable implements Queueable{
